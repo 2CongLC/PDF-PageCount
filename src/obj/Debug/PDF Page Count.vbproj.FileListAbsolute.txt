@@ -1,0 +1,16 @@
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\bin\Debug\PDF Page Count.exe.config
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\bin\Debug\PDF Page Count.exe
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\bin\Debug\PDF Page Count.pdb
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\bin\Debug\PDF Page Count.xml
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\bin\Debug\itextsharp.dll
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\bin\Debug\itextsharp.xml
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\ChuCong.Form1.resources
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\ChuCong.Resources.resources
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.vbproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.vbproj.CopyComplete
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.exe
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.xml
+C:\Users\Administrator\Downloads\PDF Page Count-29102021\obj\Debug\PDF Page Count.pdb
