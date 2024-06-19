@@ -12,7 +12,7 @@ Imports System.Text
 Imports System.Text.RegularExpressions
 Imports System.Threading
 Imports Microsoft.Office.Interop
-'Imports Microsoft.Office.Interop.Excel
+
 
 Public Class Form1
     Private IsRun As Boolean
@@ -319,7 +319,7 @@ Public Class Form1
     End Sub
     Private Sub CSVToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CSVToolStripMenuItem.Click
         Try
-            SaveFileDialog1.Filter = "CSV File (*.csv) | *.csv"
+            SaveFileDialog1.Filter = "CSV File (*.csv)|*.csv|All Files(*.*)|*.*"
             If SaveFileDialog1.ShowDialog = DialogResult.OK Then
                 ListViewToCSV(ListView1, SaveFileDialog1.FileName, True)
                 MessageBox.Show("Done !")

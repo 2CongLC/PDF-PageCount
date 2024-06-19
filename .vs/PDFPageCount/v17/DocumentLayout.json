@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Source VBNet_C#\\GitHub\\PDF-PageCount\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0AE617A-0D99-4B15-B0DA-2D28158B475B}|PDFPageCount.vbproj|d:\\source vbnet_c#\\github\\pdf-pagecount\\src\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F0AE617A-0D99-4B15-B0DA-2D28158B475B}|PDFPageCount.vbproj|solutionrelative:src\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{F0AE617A-0D99-4B15-B0DA-2D28158B475B}|src\\PDFPageCount.vbproj|d:\\source vbnet_c#\\github\\pdf-pagecount\\src\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F0AE617A-0D99-4B15-B0DA-2D28158B475B}|src\\PDFPageCount.vbproj|solutionrelative:src\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AE617A-0D99-4B15-B0DA-2D28158B475B}|PDFPageCount.vbproj|d:\\source vbnet_c#\\github\\pdf-pagecount\\src\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{F0AE617A-0D99-4B15-B0DA-2D28158B475B}|PDFPageCount.vbproj|D:\\Source VBNet_C#\\GitHub\\PDF-PageCount\\src\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F0AE617A-0D99-4B15-B0DA-2D28158B475B}|PDFPageCount.vbproj|solutionrelative:src\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "src\\Form1.vb",
               "ToolTip": "D:\\Source VBNet_C#\\GitHub\\PDF-PageCount\\src\\Form1.vb",
               "RelativeToolTip": "src\\Form1.vb",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAWwGkAAABGAAAA",
+              "ViewState": "AQIAADkBAAAAAAAAAAAAwEEBAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-19T07:10:03.473Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "D:\\Source VBNet_C#\\GitHub\\PDF-PageCount\\src\\Form1.vb [Design]",
               "RelativeToolTip": "src\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-19T07:09:58.364Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-19T07:09:58.364Z"
             }
           ]
         }
