@@ -37,6 +37,7 @@ Public Class Form1
     End Sub
 
 #End Region
+
 #Region "Khu vực xử lí NotifyIcon1"
     Private Sub NotifyIcon1_MouseDoubleClick(sender As Object, e As MouseEventArgs) Handles NotifyIcon1.MouseDoubleClick
         UnhideProcess()
@@ -68,6 +69,7 @@ Public Class Form1
         UnhideProcess()
     End Sub
 #End Region
+
 #Region "Thành phần khác"
     Private Sub Start()
         IsRun = True
@@ -100,6 +102,8 @@ Public Class Form1
                 BackgroundWorker1.RunWorkerAsync()
                 IsRun = True
                 NotifyIcon1.Icon = Icon.FromHandle(CType(ImageList1.Images(1), Bitmap).GetHicon)
+            Else
+                MessageBox.Show("Chọn đường dẫn thư mục chứa tệp PDF")
             End If
         End If
         Button4.Enabled = True
@@ -123,6 +127,8 @@ Public Class Form1
         item.SubItems.Add(Math.Ceiling(finfo.Length / 1024.0F).ToString("0 KB"))
 
         Dim sz As PDFPageCount = New PDFPageCount(finfo.FullName)
+        'Nhân hệ số trang a3 x2
+        'TotalPage += (sz.A3 * 2) + sz.A4
 
         item.SubItems.Add(sz.A3)
         item.SubItems.Add(sz.A4)
@@ -134,8 +140,7 @@ Public Class Form1
                                     ListView1.EndUpdate()
                                 End Sub), Action))
 
-        'Nhân hệ số trang a3 x2
-        TotalPage += (sz.A3 * 2) + sz.A4
+
     End Sub
     ''' <summary>
     ''' Tìm kiếm tệp tin
@@ -160,6 +165,7 @@ Public Class Form1
     End Function
 
 #End Region
+
 #Region "xử lí BackgroundWorker1"
     Private Sub BackgroundWorker1_DoWork(sender As Object, e As ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
         If Directory.Exists(TextBox1.Text) Then
@@ -185,6 +191,7 @@ Public Class Form1
 
             Next
             BackgroundWorker1.ReportProgress(100)
+
         End If
     End Sub
 
@@ -209,6 +216,7 @@ Public Class Form1
         End If
     End Sub
 #End Region
+
 #Region "Quản lí tệp tìm được"
     Private Function GetRowListView(id As Integer) As String
         Dim result As String = ""
@@ -226,6 +234,7 @@ Public Class Form1
     End Sub
 
 #End Region
+
 #Region "ToExcel"
 
 
@@ -323,5 +332,8 @@ Public Class Form1
     Private Sub ExcelToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExcelToolStripMenuItem.Click
         ToExcel()
     End Sub
+
+
 #End Region
+
 End Class

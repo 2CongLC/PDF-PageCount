@@ -41,6 +41,10 @@ Partial Class Form1
         Me.lv_total = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ContextMenuStrip2 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.MơThưMucChưaTêpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.XuấtBáoCáoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExcelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CSVToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripProgressBar1 = New System.Windows.Forms.ToolStripProgressBar()
@@ -52,10 +56,6 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
-        Me.XuấtBáoCáoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ExcelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CSVToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.ContextMenuStrip2.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
@@ -128,7 +128,7 @@ Partial Class Form1
         Me.ListView1.HideSelection = False
         Me.ListView1.Location = New System.Drawing.Point(12, 64)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(706, 296)
+        Me.ListView1.Size = New System.Drawing.Size(745, 296)
         Me.ListView1.TabIndex = 7
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -160,14 +160,14 @@ Partial Class Form1
         '
         'lv_total
         '
-        Me.lv_total.Text = "Tổng số trang"
-        Me.lv_total.Width = 105
+        Me.lv_total.Text = "Tổng số trang (A3 + A4)"
+        Me.lv_total.Width = 150
         '
         'ContextMenuStrip2
         '
         Me.ContextMenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MơThưMucChưaTêpToolStripMenuItem, Me.ToolStripSeparator1, Me.XuấtBáoCáoToolStripMenuItem})
         Me.ContextMenuStrip2.Name = "ContextMenuStrip2"
-        Me.ContextMenuStrip2.Size = New System.Drawing.Size(190, 76)
+        Me.ContextMenuStrip2.Size = New System.Drawing.Size(190, 54)
         '
         'MơThưMucChưaTêpToolStripMenuItem
         '
@@ -175,12 +175,36 @@ Partial Class Form1
         Me.MơThưMucChưaTêpToolStripMenuItem.Size = New System.Drawing.Size(189, 22)
         Me.MơThưMucChưaTêpToolStripMenuItem.Text = "Mở thư mục chứa tệp"
         '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(186, 6)
+        '
+        'XuấtBáoCáoToolStripMenuItem
+        '
+        Me.XuấtBáoCáoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExcelToolStripMenuItem, Me.CSVToolStripMenuItem})
+        Me.XuấtBáoCáoToolStripMenuItem.Name = "XuấtBáoCáoToolStripMenuItem"
+        Me.XuấtBáoCáoToolStripMenuItem.Size = New System.Drawing.Size(189, 22)
+        Me.XuấtBáoCáoToolStripMenuItem.Text = "Xuất báo cáo ..."
+        '
+        'ExcelToolStripMenuItem
+        '
+        Me.ExcelToolStripMenuItem.Name = "ExcelToolStripMenuItem"
+        Me.ExcelToolStripMenuItem.Size = New System.Drawing.Size(101, 22)
+        Me.ExcelToolStripMenuItem.Text = "Excel"
+        '
+        'CSVToolStripMenuItem
+        '
+        Me.CSVToolStripMenuItem.Name = "CSVToolStripMenuItem"
+        Me.CSVToolStripMenuItem.Size = New System.Drawing.Size(101, 22)
+        Me.CSVToolStripMenuItem.Text = "CSV"
+        '
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripProgressBar1, Me.ToolStripStatusLabel2})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 385)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(730, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(769, 22)
         Me.StatusStrip1.TabIndex = 8
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -207,7 +231,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.Location = New System.Drawing.Point(12, 363)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(706, 22)
+        Me.Label3.Size = New System.Drawing.Size(745, 22)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Chuẩn bị tìm kiếm ..."
         '
@@ -249,35 +273,11 @@ Partial Class Form1
         '
         Me.SaveFileDialog1.Title = "Export to Excel"
         '
-        'XuấtBáoCáoToolStripMenuItem
-        '
-        Me.XuấtBáoCáoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExcelToolStripMenuItem, Me.CSVToolStripMenuItem})
-        Me.XuấtBáoCáoToolStripMenuItem.Name = "XuấtBáoCáoToolStripMenuItem"
-        Me.XuấtBáoCáoToolStripMenuItem.Size = New System.Drawing.Size(189, 22)
-        Me.XuấtBáoCáoToolStripMenuItem.Text = "Xuất báo cáo ..."
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(186, 6)
-        '
-        'ExcelToolStripMenuItem
-        '
-        Me.ExcelToolStripMenuItem.Name = "ExcelToolStripMenuItem"
-        Me.ExcelToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ExcelToolStripMenuItem.Text = "Excel"
-        '
-        'CSVToolStripMenuItem
-        '
-        Me.CSVToolStripMenuItem.Name = "CSVToolStripMenuItem"
-        Me.CSVToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.CSVToolStripMenuItem.Text = "CSV"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(730, 407)
+        Me.ClientSize = New System.Drawing.Size(769, 407)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)

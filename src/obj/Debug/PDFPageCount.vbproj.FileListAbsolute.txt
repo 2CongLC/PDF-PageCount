@@ -14,3 +14,18 @@ C:\Users\Administrator\Downloads\PDFPageCount-Source-09112021-VIP\obj\Debug\PDFP
 C:\Users\Administrator\Downloads\PDFPageCount-Source-09112021-VIP\obj\Debug\PDFPageCount.exe
 C:\Users\Administrator\Downloads\PDFPageCount-Source-09112021-VIP\obj\Debug\PDFPageCount.xml
 C:\Users\Administrator\Downloads\PDFPageCount-Source-09112021-VIP\obj\Debug\PDFPageCount.pdb
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\bin\Debug\PDFPageCount.exe.config
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\bin\Debug\PDFPageCount.exe
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\bin\Debug\PDFPageCount.pdb
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\bin\Debug\PDFPageCount.xml
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\bin\Debug\itextsharp.dll
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\bin\Debug\itextsharp.xml
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.vbproj.AssemblyReference.cache
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.Form1.resources
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.Resources.resources
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.vbproj.GenerateResource.cache
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.vbproj.CoreCompileInputs.cache
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageC.CE4E381E.Up2Date
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.exe
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.xml
+D:\Source VBNet_C#\GitHub\PDF-PageCount\src\obj\Debug\PDFPageCount.pdb

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PDFPageCount
+</name>
+</assembly>
+<members>
+<member name="T:PDFPageCount.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PDFPageCount.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PDFPageCount.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:PDFPageCount.Form1.AddToListView(System.String)">
+ <summary>
+ Thêm tệp tin vào trong Listview
+ </summary>
+ <param name="file"></param>
+</member>
+<member name="M:PDFPageCount.Form1.ScanDirectory(System.String,System.String)">
+ <summary>
+ Tìm kiếm tệp tin
+ </summary>
+ <param name="dt"></param>
+ <param name="searchPattern"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>
